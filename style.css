@@ -1,0 +1,355 @@
+.container {
+  width: 100%;
+  margin: 0 80px;
+}
+
+.firstscreen {
+  width: 100%;
+  height: 786px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 62px;
+  padding-bottom: 147px;
+  padding-top: 32px;
+}
+
+header .toolbar {
+  display: flex;
+  height: 62px;
+}
+
+header .toolbar nav ul img {
+  margin-right: 700px;
+}
+
+header .toolbar nav ul li a {
+  display: flex;
+  align-self: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #202336;
+  margin-right: 35px;
+}
+
+header .toolbar nav ul li {
+  display: inline-block;
+}
+
+header .toolbar nav ul li:first-child {
+  margin-left: 747px;
+}
+
+header .toolbar nav ul li {
+  margin-right: 35px;
+}
+
+header .toolbar nav a {
+  text-decoration: none;
+}
+
+header .toolbar nav ul .login a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 60px;
+  text-align: center;
+  color: #fb8f1d;
+}
+
+header .toolbar nav ul li .login {
+  border: 1px solid #fb8f1d;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-right: 18px;
+  padding-left: 35px;
+}
+
+header .toolbar nav ul .register a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 60px;
+  align-items: center;
+  color: #ffffff;
+}
+
+header .toolbar nav ul li .register {
+  background: #fb8f1d;
+  border-radius: 8px;
+  padding-left: 35px;
+}
+
+header .finder .find .words {
+  width: 356px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 80px;
+  color: #202336;
+  margin-top: 105px;
+  text-wrap: wrap;
+}
+
+header .finder {
+  margin-top: 74px;
+  display: flex;
+}
+
+header .finder span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #202336;
+}
+
+header .finder ul {
+  padding: 0;
+}
+
+header .finder ul li input {
+  margin-top: 48px;
+  height: 52px;
+  width: 220px;
+}
+
+header .finder ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 46px;
+}
+
+header .finder ul li:last-child {
+  margin: 0;
+}
+
+header .finder .img img {
+  margin-left: 380px;
+  width: 687px;
+  height: 654px;
+}
+
+header .finder .search {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  background: #fb8f1d;
+  border-radius: 8px;
+  width: 90px;
+  height: 52px;
+  padding-left: 40px;
+  margin-top: 73px;
+}
+
+.feature {
+  width: 100px;
+  height: 532px;
+  margin-top: 180px;
+}
+
+.feature .text {
+  display: flex;
+}
+
+.feature .text .best p {
+  width: 573px;
+  text-wrap: nowrap;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+  margin-right: 900px;
+}
+
+.feature .text .view span a {
+  width: 132px;
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #fb8f1d;
+}
+
+.feature .place ul {
+  display: flex;
+}
+
+.feature .place ul img {
+  margin-top: 56px;
+  margin-right: 150px;
+}
+
+.stories {
+  width: 100%;
+  height: 684px;
+  margin-top: 120px;
+}
+
+.stories .text {
+  display: flex;
+}
+
+.stories .text .popular p {
+  width: 573px;
+  text-wrap: nowrap;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+  margin-right: 900px;
+}
+
+.stories .text .view span a {
+  width: 132px;
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #fb8f1d;
+}
+
+footer {
+  margin-top: 196px;
+  width: 100%;
+  height: 400px;
+  background: #f9f9fb;
+}
+
+footer .content {
+  display: flex;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .content .end ul li {
+  list-style-type: none;
+}
+
+footer .content .end ul .plan li {
+  width: 391px;
+  margin-top: 146px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #848484;
+  text-wrap: wrap;
+}
+
+footer .content .end ul .sunny li {
+  width: 391px;
+  margin-top: 55px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #848484;
+  text-wrap: wrap;
+}
+
+footer .content .destination ul li {
+  margin-left: 250px;
+  list-style-type: none;
+}
+
+footer .content .destination ul .dest li {
+  margin-top: 68px;
+  margin-bottom: 15px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 60px;
+  color: #000000;
+}
+
+footer .content .destination ul .cont li {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #848484;
+}
+
+footer .content .Shop ul li {
+  margin-left: 250px;
+  list-style-type: none;
+}
+
+footer .content .Shop ul .shop li {
+  margin-top: 68px;
+  margin-bottom: 15px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 60px;
+  color: #000000;
+}
+
+footer .content .Shop ul .cont li {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #848484;
+}
+
+footer .content .Interests ul li {
+  margin-left: 250px;
+  margin-right: 180px;
+  list-style-type: none;
+}
+
+footer .content .Interests ul .interest li {
+  margin-top: 68px;
+  margin-bottom: 15px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 60px;
+  color: #000000;
+}
+
+footer .content .Interests ul .cont li {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #848484;
+}
