@@ -99,6 +99,10 @@ header .finder .find .words {
   text-wrap: wrap;
 }
 
+header .finder .find a{
+  text-decoration: none;
+}
+
 header .finder {
   margin-top: 74px;
   display: flex;
