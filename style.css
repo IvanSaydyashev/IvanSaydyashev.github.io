@@ -99,7 +99,7 @@ header .finder .find .words {
   text-wrap: wrap;
 }
 
-header .finder .find a{
+header .finder .find a {
   text-decoration: none;
 }
 
@@ -247,6 +247,7 @@ footer {
 
 footer .content {
   display: flex;
+  margin-left: 50px;
 }
 
 footer a {
